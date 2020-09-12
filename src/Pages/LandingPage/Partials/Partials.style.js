@@ -63,10 +63,10 @@ export const Missiondiv = styled.div`
     }
 
     h4 {
-      margin-bottom: 10px;
+      margin-bottom: 20px;
     }
 
-    p {
+    li {
       line-height: 26px;
     }
   }
