@@ -1,0 +1,85 @@
+.sliderDiv {
+  height: calc(100vh - 70px);
+  width: 100vw;
+  outline: none;
+}
+
+.slide-div {
+  overflow: hidden;
+  min-height: calc(100vh - 70px);
+  height: calc(100vh - 70px);
+}
+
+.image1 {
+  background: url("../img/bg1.jpg") no-repeat;
+}
+
+.image2 {
+  background: url("../img/bg2.jpg") no-repeat;
+}
+
+.image3 {
+  background: url("../img/bg3.jpg") no-repeat;
+}
+
+.image4 {
+  background: url("../img/bg4.jpg") no-repeat;
+}
+
+.image1,
+.image2,
+.image3,
+.image4 {
+  background-position: center center;
+  background-size: cover;
+  /* object-fit: cover; */
+}
+
+.pd-7r {
+  padding-right: 7%;
+}
+
+.pd-7l {
+  padding-left: 7%;
+}
+
+.red-bg {
+  width: 70%;
+  background-color: rgba(139, 0, 0, 0.4);
+  height: 100%;
+  -webkit-clip-path: polygon(0 100%, 0 0, 100% 0%, 85% 100%);
+  clip-path: polygon(0 100%, 0 0, 100% 0%, 85% 100%);
+  text-align: left;
+  padding-top: 15em;
+  padding-right: 15%;
+  color: #fff;
+}
+
+.yellow-bg {
+  width: 70%;
+  background-color: rgba(184, 135, 11, 0.4);
+  height: 100%;
+  -webkit-clip-path: polygon(0 100%, 15% 0, 100% 0%, 100% 100%);
+  clip-path: polygon(0 100%, 15% 0, 100% 0%, 100% 100%);
+  float: right;
+  padding-left: 15%;
+  text-align: right;
+  padding-top: 15em;
+  color: #fff;
+}
+
+.yellow-bg h3,
+.red-bg h3 {
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 48px;
+  margin-bottom: 30px;
+}
+
+.yellow-bg p,
+.red-bg p {
+  text-align: justify;
+  font-size: 28px;
+  line-height: 32px;
+  font-weight: 300;
+}
